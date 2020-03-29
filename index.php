@@ -32,14 +32,14 @@
             <div class="profile-container">
                 <img class="profile" src="assets/images/amirul.png" alt=""/>
                 <h1 class="name">Amirul Hakim</h1>
-                <h3 class="tagline">Postgraduate Student</h3>
+                <h3 class="tagline">Software Engineer</h3>
             </div><!--//profile-container-->
 
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: amirulhakimzailan@gmail.com">amirulhakimzailan@gmail.com</a></li>
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:+60136715075">+60 13 671 5075</a></li>
-                    <li class="website"><i class="fa fa-globe"></i><a href="https://mushmero.herokuapp.com" target="_blank">mushmero.herokuapp.com</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="https://mushmero.com" target="_blank">mushmero.com</a></li>
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/muhdamirulhakim/" target="_blank">muhdamirulhakim</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://github.com/mushmero" target="_blank">@mushmero</a></li>
                     <li class="gitlab"><i class="fa fa-gitlab"></i><a href="https://gitlab.com/mushmero" target="_blank">@mushmero</a></li>
@@ -49,11 +49,11 @@
             </div><!--//contact-container-->
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
-                <div class="item">
+                <!-- <div class="item">
                     <h4 class="degree">M. Sc. in Database System</h4>
                     <h5 class="meta">Universiti Putra Malaysia</h5>
                     <div class="time">2016 - ongoing</div>
-                </div><!--//item-->
+                </div> --><!--//item-->
                 <div class="item">
                     <h4 class="degree">B. of Computer Science (Computer System)</h4>
                     <h5 class="meta">Universiti Putra Malaysia</h5>
@@ -86,12 +86,33 @@
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>Objective</h2>
                 <div class="summary">
-                    <p align="justify">The purpose of writing this resume is to acquire the suitable job in information & technology field with experiences & skills. I am graduated from Universiti Putra Malaysia (UPM) in B. Computer Science in 2015 and continue my study on database research in 2016 in M. Sc. Database System doing research on data storage size for an IoT application. Since 2015 I have been developing some mini projects regarding web applications using Codeigniter, setup DO VPS, using Git for my code repo and etc. </p>
+                    <p align="justify">The purpose of writing this resume is to acquire the suitable job in information & technology field with experiences & skills. I am graduated from Universiti Putra Malaysia (UPM) in B. Computer Science in 2015. Since 2015 I have been developing some mini projects regarding web applications using Codeigniter, setup DO VPS, using Git for my code repo and now exploring Alibaba Cloud. </p>
                 </div><!--//summary-->
             </section><!--//section-->
 
             <section class="section experiences-section">
                 <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Software Engineer</h3>
+                            <div class="time">Jan 2019 (current)</div>
+                        </div><!-- //upper-row -->
+                        <div class="company">Asiankom Communication (M) Sdn Bhd, Cheras</div>
+                    </div><!-- //meta -->
+                    <div class="details">
+                        <!-- <p> -->
+                        <li>Develop new inhouse recording webapps to play voice recording from Asterisk PABX platform using PHP Codeigniter Framework, Admin Bootstrap template, Javascript and MySQL</li>
+                        <li>Maintain inhouse softphone by upgrading with new SDK engine using C#</li>
+                        <li>Maintain MySQL DB on CallCenter system based on customer request</li>
+                        <li>Develop & customize inhouse reporting manager based on customer request using PHP & MySQL</li>
+                        <li>Maintain inhouse CRMS application develop using PHP & MySQL</li>
+                        <li>Maintain & do patch work to inhouse callcenter application</li>
+                        <li>Upgrading company website to a Wordpress site (<a href="http://asiankom.com" target="_blank">Asiankom.com</a>)</li>
+                        <!-- </p> -->
+                    </div><!-- //details -->
+                </div><!-- //item -->
 
                 <div class="item">
                     <div class="meta">
@@ -141,18 +162,20 @@
                     <p>Below is list of my current & past project that have been done personally</p>
                 </div><!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="http://demo-proseller.mushmero.com" target="_blank">Proseller</a></span> - <span class="project-tagline">A project that assist a standalone online seller to manage their inventory and financial flow. Develop by using CodeIgniter framework, Bootstrap framework, AdminLTE css, dompdf and chartjs</span>
-
+                    <span class="project-title"><a href="https://ncov19.mushmero.com" target="_blank">2019-nCoV Dashboard</a></span> - <span class="project-tagline">This is a dashboard that show information on coronavirus cases worldwide & especially in Malaysia. This project in use an API to obtain the data and built uisng CodeIgniter framework, Bootstrap 4, Datatables and ChartJs.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://bitbucket.org/mushmero/seller-pro/src/master/" target="_blank">Proseller</a></span> - <span class="project-tagline">A project that assist a standalone online seller to manage their inventory and financial flow. Develop by using CodeIgniter framework, Bootstrap framework, AdminLTE css, dompdf and chartjs</span>
                 </div><!--//item-->
                 <div class="item">
                     <span class="project-title"><a href="#" target="_blank">Attendance-Pro</a><small> in progress</small></span> -
                     <span class="project-tagline">A simple system that will be use to track staff attendance on a company and generate report based on month or department. Develop by using CodeIgniter framework, Bootstrap framework, AdminLTE css and dompdf.</span>
                 </div><!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Tunas Agro</a><small> in progress</small></span> - <span class="project-tagline">A simple system for Sabak Bernam territory for exposing a lot of wonderfull places and food at Sabak Bernam. Develop by using Codeigniter framework, Bootstrap framework & tba.</span>
+                    <span class="project-title"><a href="https://github.com/mushmero/Arduino_Gardening_Wireless_MongoDB" target="_blank">Humidity, Temperature & UV sensor</a><small> in progress</small></span> - <span class="project-tagline">An IoT project that will read humidity, temperature and UV reading from environment and transmit the data into online database over wireless network. Develop by using Arduino board, UV sensors, DHT sensors, ESP8266 Wifi Module.</span>
                 </div><!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Humidity, Temperature & UV sensor</a><small> in progress</small></span> - <span class="project-tagline">An IoT project that will read humidity, temperature and UV reading from environment and transmit the data into online database over wireless network. Develop by using Arduino board, UV sensors, DHT sensors, ESP8266 Wifi Module.</span>
+                    <span class="project-title"><a href="https://github.com/mushmero/Roboshop" target="_blank">Roboshop</a></span> - <span class="project-tagline">A FYP project for B. Computer Science. A system to go shoppign using robot that control using Xbox Kinect Sensor. The robot is build using LEGO Mindstorm & Tetrix. The program is code in JAVA.</span>
                 </div><!--//item-->
             </section><!--//section-->
 
@@ -166,7 +189,6 @@
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
-
                     <div class="item">
                         <h3 class="level-title">HTML5 &amp; CSS</h3>
                         <div class="level-bar">
@@ -174,7 +196,6 @@
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
-
                     <div class="item">
                         <h3 class="level-title">Javascript &amp; jQuery</h3>
                         <div class="level-bar">
@@ -182,23 +203,34 @@
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
-
                     <div class="item">
-                        <h3 class="level-title">Arduino C</h3>
+                        <h3 class="level-title">Git</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="60%">
+                            <div class="level-bar-inner" data-level="40%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
-
+                    <div class="item">
+                        <h3 class="level-title">SVN</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="30%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
                     <div class="item">
                         <h3 class="level-title">DigitalOcean Cloud Server</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="55%">
+                            <div class="level-bar-inner" data-level="15%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
-
+                    <div class="item">
+                        <h3 class="level-title">Alibaba Cloud</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="5%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
                 </div>
             </section><!--//skills-section-->
 
@@ -207,7 +239,7 @@
 
     <footer class="footer">
         <div class="text-center">
-                <p><i class="fa fa-print"></i> Print or download this Resume as PDF <a href="to-pdf.php"><strong>here</strong></a></p>
+                <!-- <p><i class="fa fa-print"></i> Print or download this Resume as PDF <a href="to-pdf.php"><strong>here</strong></a></p> -->
                 <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
                 <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. Edited by <a href="https://mushmero.com" target="_blank">myself</a></small>
         </div><!--//container-->
