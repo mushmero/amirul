@@ -1,6 +1,0 @@
-2017-11-25 10:52:47.0704 = [app] <00813  CMP_VID::c                    (19319) > topmost setting failure
-2017-11-25 10:52:47.0704 = [app] <00846  drawing::c                    ( 341) > -
-2017-11-25 10:52:47.0976 = [app] <00813  CMP_VID::c                    (19319) > topmost setting failure
-2018-02-03 19:40:37.0575 = [app] <30412  CMP_VID::c                    ( 259) > + parent: drawing (baa@1a33923)2018-02-03 19:40:37.0575 = [app] <30372  CMP_VID::c                    (19319) > topmost setting failure
-
-2018-02-03 19:40:37.0772 = [app] <30372  CMP_VID::c                    (19319) > topmost setting failure
